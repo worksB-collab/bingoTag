@@ -14,7 +14,8 @@ const BingoAward = () => {
                     'Content-Type': 'application/json',
                 })
             });
-            setLetter(fetchedContent.letter);
+            const responseData = await fetchedContent.json();
+            setLetter(responseData.letter);
         }
         getLetter();
     }, []);
