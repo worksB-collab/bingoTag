@@ -91,5 +91,7 @@
 }
 
 .letterContent {
-    font-size: 12pt;
+    margin: 10px 0;
+    font-size: 13pt;
+    line-height: 2.0;
 }
