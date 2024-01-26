@@ -9,10 +9,14 @@ body {
 
 h1, h2, h3, h4, h5, p, input {
     margin: 0;
-    color: #a076ec;
+    color: var(--main-color);
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+    --main-color: #a076ec;
 }
